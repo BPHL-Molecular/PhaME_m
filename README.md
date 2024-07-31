@@ -1,5 +1,39 @@
 # PhaME_m
-The modified version of PhaME (Phylogenetic and Molecular Evolution analysis tool). PhaME_m retains all the functions of PhaME, namely performing phylogenetic and molecular evolutionary analysis from sequencing reads, draft assemblies or completed genomes. The sequencing data in FASTQ or FASTA format can be directly inputted. 
+The debugging version of PhaME (Phylogenetic and Molecular Evolution analysis tool). PhaME_m retains all the functions of PhaME, namely performing phylogenetic and molecular evolutionary analysis from sequencing reads, draft assemblies or completed genomes. The sequencing data in FASTQ or FASTA format can be directly inputted. 
 
 # Why PhaME_m?
 Since PheME has not been updated for a long time, the existing versions (precompiled, development, and docker versions) have some installation and running issues. In PheME_m, all of these issues are solved. According to the new installation guide, the PheME can be successfully installed and run on a local machine. 
+
+# How to install?
+1. Create a separate conda environment and then activate it:
+   ```bash
+   conda create -n phame_m
+   ```
+   ```bash
+   conda activate phame_m
+   ```
+2. Install required dependencies in the "phame_m" conda environment:
+   ```bash
+   mamba install perl-bioperl
+   mamba install samtools
+   mamba install bcftools
+   mamba install mummer
+   mamba install bowtie2
+   mamba install fasttree
+   mamba install bbmap
+   mamba install raxml
+   mamba install perl-parallel-forkmanager
+   mamba install perl-statistics-distributions
+   mamba install paml
+   mamba install mafft
+   mamba install hyphy
+   ```
+3. Clone the github repo of PhaME:
+   ```bash
+   git clone https://github.com/LANL-Bioinformatics/PhaME.git
+   ```
+5. Test if the installation was successful:
+   ```bash
+   cd PhaME
+   bash ./test/TestAll.sh 1
+   ```
