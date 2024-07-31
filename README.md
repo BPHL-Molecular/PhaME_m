@@ -38,7 +38,7 @@ Since PheME has not been updated for a long time, the existing versions (precomp
    bash ./test/TestAll.sh 1
    ```
 # More about PhaME:
-1. The github repo:
+1. The github repo:    
    https://github.com/mshakya/PhaME/tree/master
 3. The publication:   
    Shakya, M., Ahmed. S.A, Davenport K.W., Flynn M.C., Lo. C-C, Chain P.S.G. Standardized phylogenetic and molecular evolutionary analysis applied to species across the 
