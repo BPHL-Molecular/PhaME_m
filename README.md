@@ -2,7 +2,7 @@
 The debugging version of PhaME (Phylogenetic and Molecular Evolution analysis tool). PhaME_m retains all the functions of PhaME, namely performing phylogenetic and molecular evolutionary analysis from sequencing reads, draft assemblies or completed genomes. The sequencing data in FASTQ or FASTA format can be directly inputted. 
 
 # Why PhaME_m?
-Since PhaME has not been updated for a long time, the existing versions (precompiled, development, and docker versions) have some installation and running issues. In PhaME_m, all of these issues are solved. According to the new installation guide, the PhaME can be successfully installed and run on a local machine. 
+Since PhaME has not been updated for a long time, the existing versions (precompiled, development, and docker versions) have some installation and running issues. In PhaME_m, all of these issues are solved. Following the installation guide below, the PhaME can be successfully installed and run on a local machine. 
 
 # How to install?
 1. Create a separate conda environment and then activate it:
