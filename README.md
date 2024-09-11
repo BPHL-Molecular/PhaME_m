@@ -44,6 +44,7 @@ Since PhaME has not been updated for a long time, the existing versions (precomp
 # More about PhaME:
 1. The github repo:    
    https://github.com/mshakya/PhaME/tree/master
+2. Docs: https://phame.readthedocs.io/en/latest/index.html
 3. The publication:   
    Shakya, M., Ahmed. S.A, Davenport K.W., Flynn M.C., Lo. C-C, Chain P.S.G. Standardized phylogenetic and molecular evolutionary analysis applied to species across the 
    microbial tree of life. Sci. Rep. 10, 1723 (2020).
