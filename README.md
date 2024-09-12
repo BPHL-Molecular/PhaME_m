@@ -37,6 +37,10 @@ Since PhaME has not been updated for a long time, the existing versions (precomp
    cd PhaME
    bash ./test/TestAll.sh 1
    ```
+# How to run?
+Please see steps.txt.
+Note: If you want to know more details about PhaME, see the link https://phame.readthedocs.io/en/latest/index.html
+
 # FAQ
 1. ERROR: It makes no sense to perform bootstrap with less than 4 sequences.
 2. ERROR: Alignment must have at least 3 sequences.
