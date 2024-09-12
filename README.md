@@ -38,7 +38,7 @@ Since PhaME has not been updated for a long time, the existing versions (precomp
    bash ./test/TestAll.sh 1
    ```
 # How to run?
-Please see steps.txt.
+Please see steps.txt.      
 Note: If you want to know more details about PhaME, see the link https://phame.readthedocs.io/en/latest/index.html
 
 # FAQ
