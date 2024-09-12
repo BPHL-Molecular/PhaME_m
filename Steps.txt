@@ -1,0 +1,34 @@
+
+Note:The conda environment "SANIBEL" has install all packages below.
+
+1. create and activate a conda environment
+2. install dependencies
+### replace conda with mamba to install all packages
+#$mamba install perl-time-piece 
+1. $mamba install perl-bioperl
+2. $mamba install samtools
+3. $mamba install bcftools
+4. $mamba install mummer
+5. $mamba install bowtie2
+6. $mamba install fasttree
+7. $mamba install bbmap
+8. $mamba install raxml
+9. $mamba install perl-parallel-forkmanager
+10. $mamba install perl-statistics-distributions
+11. $mamba install paml
+12. $mamba install mafft
+13. $amba install hyphy
+
+3. Download PhaME
+
+4. Go to PhaME top directory. In the top directory, you should find the folder "test", "src", etc.
+
+5. Create the folder "workdirs" and "/workdirs/mytest". For example: $mkdir -p ./test/workdirs/mytest
+
+6. Copy your data to /workdirs/mytest/
+
+7. Create a new control file and set all parameters in it. For example: a control file "test/ctl_files/mytest3.ctl"
+
+8. Run the command phame in the folder "src". For example: $perl src/phame test/ctl_files/mytest3.ctl
+
+Note: Candida fungi test showed that only fasta data works, while its fastq data from PacBio long sequencing do not work. Possible reason is that PhaME only handle paired/single reads from Illumina. 
